@@ -1,10 +1,10 @@
 # F411_LAB
 
-![오실로스코프 측정 사진](F411_LAB.img/F411_LAB_OSC.jpg)
-
 **Ultrasonic Oscilloscope 측정**
 
 *Tektronix TDS 2012B 오실로스코프 측정 화면 (CH1 2.00 V/div, CH2 500 mV/div, 2.50 ms/div)*
+
+![오실로스코프 측정 사진](F411_LAB.img/F411_LAB_OSC.jpg)
 
 NUCLEO-F411RE(STM32F411RE) 보드로 진행한 **F411 실습 프로젝트**입니다. STM32CubeMX로 핀/타이머/인터럽트/UART를 설정하고, STM32CubeIDE(HAL)로 구현·디버깅한 과정을 정리했습니다.
 
