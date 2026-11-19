@@ -74,6 +74,14 @@ PA0을 `External Interrupt Mode with Rising/Falling edge trigger detection`으�
 
 ## 5. 실행 결과 (UART / PuTTY)
 
+### 실행 방법
+
+1. STM32CubeIDE에서 프로젝트를 Import (또는 `F411_LAB.ioc`를 CubeMX로 열기)
+2. Build 후 Debug/Run으로 보드에 다운로드
+3. ST-LINK 가상 COM 포트를 PuTTY로 연결 (115200, 8N1)
+
+### 출력 결과
+
 115200 bps로 연결하면 1초마다 다음 형식으로 출력됩니다.
 
 ```
@@ -95,13 +103,7 @@ C,<last_echo_ticks>
 | 에코 신호 추적 그래프 | ![](F411_LAB.img/11.195.png) |
 | TRIG / ECHO 에지 그래프 | ![](F411_LAB.img/11.196.png) |
 
-## 7. 빌드 및 실행
-
-1. STM32CubeIDE에서 프로젝트를 Import (또는 `F411_LAB.ioc`를 CubeMX로 열기)
-2. Build 후 Debug/Run으로 보드에 다운로드
-3. ST-LINK 가상 COM 포트를 PuTTY로 연결 (115200, 8N1)
-
-## 8. TRIG / ECHO 에지 측정 결과
+## 7. TRIG / ECHO 에지 측정 결과
 
 `g_trace_trig_edge`(노랑)와 `g_trace_echo_edge`(빨강)를 함께 그린 그래프입니다.
 
